@@ -9,6 +9,6 @@ Early identification of lung abnormalities is essential for effective treatment 
 
 
 
-## 🔎ABJECTIVE FOR DAY-1
+## 🔎OBJECTIVE FOR DAY-1
 
 The goal of Day 1 is to collect the required dataset and set up the development environment for the project.Today's focus is only on preparing the resources needed for model building in upcoming days.
