@@ -41,3 +41,31 @@ The goal of Day 1 is to collect the required dataset and set up the development 
    * duplicated images
    * unreadable files
    * zero-byte corrupted images
+
+
+## DAY 3 - CNN model design 
+
+OVERVIEW :
+
+Today focus on designing a CNN for chest X-ray images.The model architecture is built to extract features from x-rays images through multiple convolution and pooling layer, followed by fully connected layer.
+
+MODEL ARCHITECTURE 
+
+1. Input layer
+   - Accepts imagesof size 224*224*3
+2.convloution layer 1
+   - conv2D:32 filters,3x3 kernel,ReLU activation
+   - Maxpooling2D: 2x2 pool size
+3. Convolutional layer 2
+   - conv2D :64 filters,3x3 kernel,ReLU activation
+   - Maxpooling2D: 2x2 pool size
+4.  Convolutional layer 3
+   - conv2D :128 filters,3x3 kernel,ReLU activation
+   - Maxpooling2D: 2x2 pool size
+5. Flattern layer
+   - converts 2D feature maps into a 1D vector
+6.Fully connected layer
+   - dropout:0.5
+7.output layer
+   - dense layer with neurons depending on the number of classes
+   - softmax activation 
