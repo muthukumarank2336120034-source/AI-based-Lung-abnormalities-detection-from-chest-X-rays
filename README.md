@@ -15,3 +15,29 @@ The goal of Day 1 is to collect the required dataset and set up the development 
 
 
 ## DATASET LINK  https://drive.google.com/file/d/1bj8DGr3GcXncarTgoMxJtR4hP57XY47A/view?usp=sharing
+
+
+## DAY 2- DATA PREPROCESSING
+
+** objective **
+  Prepare the chest X-ray dataset for model training by:
+
+> Organizing images into train/test/validation sets
+> resizing images to a fized size
+> removing unreadable or corrupted images
+> ensuring class folders are correct
+
+ ## PREPROCESSING STEPS PERFORMED 
+
+ % Loaded dataset from source folder
+ % Verified paths and counted images
+ % split dataset into 
+   * 70% train
+   * 20% test
+   * 10% validation
+% Resized all images to 224x224 pixels
+% converted images to grayscale/RGB as required
+% removed :
+   * duplicated images
+   * unreadable files
+   * zero-byte corrupted images
