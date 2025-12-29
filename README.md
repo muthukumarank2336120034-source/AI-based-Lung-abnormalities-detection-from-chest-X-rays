@@ -144,3 +144,81 @@ Accuracy curve
 
 Loss curve
 
+## Day 5 – Model Evaluation
+
+📌 Overview
+
+On Day 5, the trained Convolutional Neural Network (CNN) model was evaluated using the test dataset. The goal of this step is to measure how well the model generalizes to unseen chest X-ray images.
+
+Evaluation focused on:
+
+model accuracy
+
+model loss
+
+comparison between training and validation performance
+
+identification of misclassifications (optional)
+
+
+🧠 What was done on Day 5?
+
+✔️ The trained CNN model was tested on the test dataset
+✔️ Model performance was measured using loss and accuracy metrics
+✔️ Training vs validation curves were plotted
+✔️ Optional confusion matrix was generated to analyze predictions
+
+🧪 Evaluation Metrics Used
+
+The following metrics were used to evaluate the model:
+
+Training Accuracy – performance during training
+
+Validation Accuracy – performance on validation data
+
+Test Accuracy – final performance on unseen data
+
+Loss – error value during training and testing
+
+
+These metrics help determine:
+
+underfitting
+
+overfitting
+
+model generalization ability
+
+
+📊 Visualization Performed
+
+The following graphs were plotted:
+
+Training vs Validation Accuracy curve
+
+Training vs Validation Loss curve
+
+Optional Confusion Matrix Heatmap
+
+
+These visualizations help in understanding:
+
+whether the model is improving
+
+whether it is overfitting or underfitting
+
+class-wise prediction performance
+
+🎯 Outcome
+
+The evaluation confirms whether:
+
+the CNN model is reliable
+
+further tuning is needed
+
+architecture needs modification
+
+dataset needs balancing or augmentation
+
+
