@@ -68,4 +68,79 @@ MODEL ARCHITECTURE
    - dropout:0.5
 7.output layer
    - dense layer with neurons depending on the number of classes
-   - softmax activation 
+   - softmax activation
+
+## Day 4 – Model Training
+
+📌 Overview
+
+On Day 4, the focus was on model selection, design, and training for the Chest X-ray image classification project. A Convolutional Neural Network (CNN) was chosen because CNNs are highly effective for extracting important spatial features from medical images such as chest X-rays.
+
+The model was trained to classify X-ray images into multiple categories such as:
+
+Normal
+Pneumonia
+
+🧠 Why CNN for Chest X-ray?
+
+CNNs are ideal for this task because they can automatically learn:
+
+edges and contours of lungs
+
+textures and opacities
+
+disease-related patterns
+
+structural abnormalities
+
+🏗️ Model Design & Architecture
+
+The model is optimized using:
+
+Adam optimizer
+
+Categorical cross-entropy loss
+
+Accuracy as evaluation metric
+
+🏋️ Training Strategy
+
+The dataset was divided into:
+
+Training set
+
+Validation set
+
+Test set
+
+Data augmentation was applied to improve generalization:
+
+rotation
+
+zoom
+
+horizontal flip
+
+rescaling
+
+
+The model was trained for multiple epochs while monitoring:
+
+training accuracy
+
+validation accuracy
+
+training loss
+
+validation loss
+
+📊 Performance Evaluation
+
+After training, the model was evaluated using:
+
+Test accuracy
+
+Accuracy curve
+
+Loss curve
+
