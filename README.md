@@ -221,4 +221,87 @@ architecture needs modification
 
 dataset needs balancing or augmentation
 
+## 📅 Day 6 – Testing & Prediction 🧪
 
+
+On Day 6, the trained CNN model was tested on unseen chest X-ray images to evaluate its real-world performance.
+
+### ✅ What I did today
+
+✔ Loaded the saved trained model (.h5 file)  
+✔ Tested the model with new X-ray images  
+✔ Generated predictions (Normal / Pneumonia)  
+✔ Evaluated model accuracy on test dataset  
+✔ Observed detection performance and reliability  
+
+### 🔍 Output of prediction
+
+- The model takes an input chest X-ray image  
+- Processes it using the trained CNN  
+- Outputs whether the X-ray is:
+
+👉 *Normal*  
+👉 *Pneumonia*
+
+### 🧪 Evaluation Includes
+
+- Test Accuracy  
+- Test Loss  
+- Correct vs Incorrect Predictions  
+
+### 🚀 Summary of Day 6
+
+The trained model successfully performed:
+
+- Testing on unseen X-ray images  
+- Prediction of disease labels  
+- Evaluation on the test set  
+
+## 🎉 Day 7 – Final Results & Conclusion 🫁
+
+### 🧠 Project: Chest X-Ray Pneumonia Detection
+
+Day 7 marks the completion of the project. The trained CNN model was tested and the final performance results were obtained.
+
+### ✅ What I completed today
+
+✔ Tested the final model on unseen chest X-ray images  
+✔ Displayed final prediction outputs  
+✔ Calculated final test accuracy and loss  
+✔ Observed confidence scores of predictions  
+✔ Prepared final project conclusion  
+
+### 🏁 Final Output
+
+The model successfully predicts:
+
+✔ Normal  
+✔ Pneumonia  
+
+For each image, the model also provides:
+
+✔ Predicted class  
+✔ Confidence percentage  
+
+### 📊 Final Evaluation Summary
+
+- Model Accuracy: ✔️  
+- Model Loss: ✔️  
+- Reliable pneumonia detection results  
+
+### 🧠 Learning Outcomes
+
+✔ Learned dataset preprocessing  
+✔ Built CNN model  
+✔ Trained model  
+✔ Evaluated performance  
+✔ Made predictions  
+✔ Interpreted final results  
+
+### 🚀 Final Conclusion
+
+The project successfully demonstrates:
+
+- Deep learning for medical imaging  
+- Automatic pneumonia detection  
+- Chest X-ray image classification
